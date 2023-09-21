@@ -1,4 +1,3 @@
-Методическое пособие по выполнению домашнего задания по курсу «Администратор Linux. Professional»
 Vagrant-стенд c DNS
 
 Цель домашнего задания
@@ -890,7 +889,7 @@ ping: www.newdns.lab: Name or service not known
 
 Настройка Split-DNS c помощью Ansible
 
-В существующем Ansible-playbook менять ничего не потребуется. Нам потребуется изменить содержимое файлов master-named.conf и slave-named.conf, а также добавить файл named.dns.lab.client.
+В существующем Ansible-playbook менять ничего не потребуется. Нам потребуется изменить содержимое файлов [master-named.conf](https://github.com/zoyqqyoz/Otus_Kaneva_dz23/blob/master/provisioning/master-named.conf) и [slave-named.conf](https://github.com/zoyqqyoz/Otus_Kaneva_dz23/blob/master/provisioning/slave-named.conf), а также добавить файл [named.dns.lab.client](https://github.com/zoyqqyoz/Otus_Kaneva_dz23/blob/master/provisioning/named.dns.lab.client).
 
 
 
